@@ -20,3 +20,4 @@ Thumbs.db
 
 # --- Model outputs and checkpoints ---
 Mental-Health-Sentiment-Analysis-using-Deep-Learning-main/output_mental_health_sentiment_v3_reg/
+Mental-Health-Sentiment-Analysis-using-Deep-Learning-main/output_fast_training/model.safetensors
