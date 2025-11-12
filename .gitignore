@@ -1,3 +1,22 @@
-.venv
+# --- Python virtual environment ---
+.venv/
+venv/
+
+# --- Python cache and temporary files ---
 __pycache__/
-./output_mental_health_app/*
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# --- Jupyter & VSCode ---
+.ipynb_checkpoints/
+.vscode/
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Model outputs and checkpoints ---
+Mental-Health-Sentiment-Analysis-using-Deep-Learning-main/output_mental_health_sentiment_v3_reg/
