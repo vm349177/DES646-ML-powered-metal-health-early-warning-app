@@ -17,11 +17,13 @@ SAMPLE_RATE = 16000
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 id_to_label = {
-    0: "Normal",
-    1: "Anxiety",
+    0: "Anxiety",
+    1: "Bipolar",
     2: "Depression",
-    3: "Stress",
-    4: "Suicidal"
+    3: "Normal",
+    4: "Personality disorder",
+    5: "Stress",
+    6: "Suicidal"
 }
 
 # ==============================
